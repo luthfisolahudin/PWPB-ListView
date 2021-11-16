@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start|center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/hero_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hero_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/team_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:text="@string/label_delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
